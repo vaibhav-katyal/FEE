@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practice Challenge Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <h1>Personal Form</h1>
+
+        <label for="name">Name :</label><br>
+        <input type="text" id="name" name="name" pattern="[A-Za-z]{3,}" title="Only letters, minimum 3 characters" placeholder="Enter your Name" required><br><br>
+
+        <label for="password">Password :</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your Password" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required><br><br>
+
+        <label for="age">Age :</label><br>
+        <input type="number" id="age" name="age" min="18" max="60" placeholder="Age" required><br><br>
+
+        <label for="phone">Phone :</label><br>
+        <input type="text" id="phone" name="phone" pattern="\d{10}" title="Enter exactly 10 digits" placeholder="Enter your phone number" required><br><br>
+
+        <label>Gender :</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+        <label>Language :</label><br>
+        <input type="radio" id="Punjabi" name="Punjabi" value="Punjabi" required>
+        <label for="male">English</label><br>
+        <input type="radio" id="Punjabi" name="Punjabi" value="Punjabi" required>
+        <label for="male">Punjabi</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Hindi</label><br><br>
+
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
