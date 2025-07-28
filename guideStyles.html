@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emojis Ascii</title>
+</head>
+<body>
+    <h2>1. Emojis in HTML</h2>
+    Direct Emoji Example: 😂😂😂💔💔🥀 <br>
+    Another Emoji: ❤️ <br>
+    Using Unicode: &#128522;
+    <br>
+
+    <h2>2. Ascii Values</h2>
+    <table border="1">
+        <tr>
+            <th>Character</th>
+            <th>Ascii Value</th>
+        </tr>
+        <tr>
+            <td>&#65</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>&#97</td>
+            <td>97</td>
+        </tr>
+        <tr>
+            <td>&#48</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <td>&#64</td>
+            <td>64</td>
+        </tr>
+        <tr>
+            <td>&#32</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>&#169</td>
+            <td>169</td>
+        </tr>
+    </table>    
+
+    <h2>3. Common Encoded URLS</h2>
+    <b>Original URL: </b> <br><br>
+    https://gojak.com/query=hello world <br><br>
+
+    <b>Encoded URL: </b> <br><br>
+    https://gojak.com/query=hello%20world
+
+    <h3>Some common encoded characters: </h3>
+    <ul>
+        <li>Space &rarr; %20</li>
+        <li>& &rarr; %26</li>
+        <li>= &rarr; %3D</li>
+        <li>? &rarr; %3F</li>
+    </ul>
+
+    <h2>4. Guide Style (HTML Best Practices)</h2>
+    <h4>Messy HTML:</h4>
+    <code>
+        &lt;DIV&gt;&lt;IMG src=cat.jpg&gt;&lt;h1&gt;Welcome&lt;/h1&gt;&lt;/DIV&gt;
+    </code>
+    <h4>Fixed HTML:</h4>
+    <code>
+        &lt;div&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="cat.jpg" alt="A cute cat"&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome&lt;/h1&gt;<br>
+        &lt;/div&gt;
+</body>
+</html>
