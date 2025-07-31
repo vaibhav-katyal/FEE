@@ -38,10 +38,13 @@ nav ul li a:hover {
 
 blockquote {
     font-style: italic;
-    border-left: 4px solid #ccc;
+    border-left: 4px solid #2a954e;
     margin: 10px 90px 40px 90px;
-    padding-left: 15px;
-    color: #555;
+    padding: 18px 24px;
+    color: #333;
+    background: linear-gradient(135deg, #e8f5e9 0%, #f8f9fa 100%);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(42, 149, 78, 0.08);
 }
 
 cite {
@@ -50,6 +53,7 @@ cite {
     text-align: right;
     font-style: normal;
     font-weight: bold;
+    color: #2a954e;
 }
 
 h2 {
